@@ -13,10 +13,8 @@ Program will create a file called output.jpg in the directory where the program 
 
 ### Todo
 
-* Add error handling for file names
 * Allow custom save locations for output file
 * Improve performance
 * Add a file selection gui?
-* Fix issue with spaces in filepath
 
 Created by Tom England, 2020
