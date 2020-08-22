@@ -3,6 +3,7 @@
 #include <iostream>
 #include <vector>
 #include <string>
+#include <cstdio>
 
 //std::vector<int> bucketCount;
 
@@ -92,6 +93,12 @@ int main()
     std::cout << "Enter Filename : ";
     std::cin.getline(filename, sizeof(filename));
     Image workImage(filename);
+
+    if (!workImage.created) {
+        std::cout << "Press enter key to end..." << std::endl;
+        std::getchar();
+        return 0;
+    }
 
     int paletteSize = 10;
     std::cout << "Enter palette size : ";
