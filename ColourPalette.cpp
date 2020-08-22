@@ -90,8 +90,7 @@ int main()
     char filename[200];
 
     std::cout << "Enter Filename : ";
-    std::cin >> filename;
-
+    std::cin.getline(filename, sizeof(filename));
     Image workImage(filename);
 
     int paletteSize = 10;
