@@ -4,6 +4,8 @@ A C++ program for generating a colour palette based off a user supplied image.
 
 Uses stb_image.h and stb_image_write.h created by Sean T. Barrett and licenced under the public domain.
 
+![Image of Potential Output from the Program](https://raw.githubusercontent.com/Tom-England/Colour_Palette/master/readmeImage.jpg)
+
 ### Usage
 1. When prompted enter the full filepath to the image you wish to edit
 (e.g. C:\\User\\Your name\\Pictures\\image.jpg )
